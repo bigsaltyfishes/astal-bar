@@ -570,11 +570,11 @@ return function(gdkmonitor)
 			Widget.Box({
 				halign = "START",
 				class_name = "left-box",
-				ActiveClient(),
+				Workspaces(),
 			}),
 			Widget.Box({
 				class_name = "center-box",
-				Workspaces(),
+				ActiveClient(),
 				Media(gdkmonitor),
 			}),
 			Widget.Box({

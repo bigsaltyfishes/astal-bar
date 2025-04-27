@@ -1,20 +1,21 @@
 return {
 	dock = {
 		pinned_apps = {
-			"nautilus",
-			"ghostty",
+			"thunar",
+			"wezterm",
 			"zen",
+			"komikku",
 			"telegram",
 			"obs",
-			"zed",
+			"codium",
 			"resources",
 		},
 	},
 	github = {
-		username = "linuxmobile",
+		username = "molyuu",
 	},
 	monitor = {
-		mode = "specific", -- Can be "primary", "all", or "specific"
+		mode = "all", -- Can be "primary", "all", or "specific"
 		specific_monitor = 1,
 	},
 	profile = {
@@ -24,6 +25,7 @@ return {
 		preferred_players = {
 			"zen",
 			"firefox",
+			"spotify",
 		},
 	},
 	display = {
