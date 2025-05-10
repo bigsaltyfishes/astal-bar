@@ -20,6 +20,11 @@
       name = "kaneru";
       src = ./.;
 
+      extraLuaPackages = ps: with ps; [
+        cjson
+        luautf8
+      ];
+
       extraPackages = with astal.packages.${system};
         [
           battery
@@ -42,10 +47,6 @@
           wget
           curl
           fastfetch
-        ])
-        ++ (with pkgs.lua52Packages; [
-          cjson
-          luautf8
         ]);
     };
   };
